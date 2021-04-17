@@ -1,0 +1,75 @@
+.inputOption{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption > h4 {
+    margin-left:  5px;
+}
+
+.liked {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    box-sizing: border-box;
+    background-color: #f3f2ef;
+}
+
+.unlike {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: none;
+    box-shadow: none;
+    box-sizing: none;
+    background-color:none;
+}
+
+.commentOption{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 5px;
+    color: grey;
+    margin-top: 20px;
+    width: 70%;
+    height: 20px;
+}
+
+.commentOption > form {
+     display: flex;
+     width: 100%;
+}
+
+.commentOption > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    width: 300px;
+    height: 20px;
+    font-size: medium;
+}
+
+.commentOption > form > button {
+    display: none;
+}
+
+.icon{
+    padding: 0px 10px;
+    height: 10px;
+}

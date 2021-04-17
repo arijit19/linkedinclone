@@ -1,0 +1,25 @@
+.input{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: grey;
+    padding-left: 15px;
+}
+
+.input > form {
+     display: flex;
+     width: 100%;
+}
+
+.input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.input > form > button {
+    display: none;
+}

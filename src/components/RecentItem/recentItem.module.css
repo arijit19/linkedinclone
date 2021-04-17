@@ -1,0 +1,18 @@
+.recentItem {
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.recentItem:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+}
+
+.recentItem__hash{
+    margin-right: 10px;
+    margin-left: 10px;
+}

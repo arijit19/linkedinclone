@@ -1,0 +1,16 @@
+.profileStat {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileStat > p {
+     columns: grey;
+     font-size: 13px;
+     font-weight: 600;
+}
+
+.profileStat__Number{
+     font-weight: bold;
+     color: #0a66c2;
+}

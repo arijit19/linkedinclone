@@ -1,0 +1,75 @@
+.modal {
+    position: fixed;
+    z-index: 500;
+    background-color: #f3f2ef;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 12%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal__posts{
+    padding: 16px;
+    display: contents;
+    align-items: center;
+}
+
+.modal__posts > input {
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.modal__button {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    background-color:#f0c14b;
+    border-color: #a88734 #9c7331 #846a29;
+}
+
+.modal__buttons > button:disabled {
+    background-color:  #57461c;
+    cursor: not-allowed;
+}
+
+.modal__buttons {
+    padding: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Success {
+    color: #fff;
+    background-color: #f0c14b;
+}
+
+.Cancle {
+    background-color: #c25c33;
+}
+
+@media (min-width: 600px) {
+    .modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

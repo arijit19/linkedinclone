@@ -1,0 +1,39 @@
+.inputOption{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: gray;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption > h4 {
+    margin-left:  5px;
+}
+
+.liked {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    box-sizing: border-box;
+    background-color: #f3f2ef;
+}
+
+.unlike {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: none;
+    box-shadow: none;
+    box-sizing: none;
+    background-color:none;
+}
