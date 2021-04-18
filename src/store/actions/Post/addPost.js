@@ -11,10 +11,8 @@ export const addPostDatabase = (post)=> {
             .doc(documentRef.id)
             .set(post)
             .then(() => {
-                console.log("Document successfully written!");
             })
             .catch((err) => {
-                console.error("Error writing document: ", err);
                 dispatch(failed(err))
             });
     }
@@ -42,10 +40,8 @@ export const addPostURLDatabase = (post, file)=> {
                     .doc(documentRef.id)
                     .set(updatePostURL)
                     .then(() => {
-                        console.log("Document successfully written!");
                     })
                     .catch((err) => {
-                        console.error("Error writing document: ", err);
                         dispatch(failed(err))
                     });
             });

@@ -16,7 +16,7 @@ export const fetchPostBody = ()=> {
             .onSnapshot(snapShot => {
                 snapShot.docChanges().forEach( change => {
                     if (change.type === "added") {
-                        // console.log("Added city: ", change.doc.data());
+                        
                         let post = {
                             ...change.doc.data()
                         }
@@ -24,10 +24,10 @@ export const fetchPostBody = ()=> {
                         
                     }
                     if (change.type === "modified") {
-                        // console.log("Modified city: ", change.doc.data());
+                        
                     }
                     if (change.type === "removed") {
-                        // console.log("Removed city: ", change.doc.data());
+                       
                     }
         
                 })

@@ -4,6 +4,7 @@ export {
 
 export {
     filterObject,
+    removeObject,
     isLiked,
     getLikeDocID
 } from './data'

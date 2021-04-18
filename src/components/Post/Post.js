@@ -13,7 +13,6 @@ const Post = forwardRef(({name, description, message,id,likes,comments ,file, ui
     const [commentClicked, setCommentClicked] = useState(false);
     const isLiked = selectors.isLiked(uid,likes);
     const likeDocID = selectors.getLikeDocID(uid,likes);
-    // console.log("isLiked "+isLiked);
     return (
         <div ref={ref} className={styles.post} >
             <div className={styles.post__header}>

@@ -8,9 +8,7 @@ export const unlikeCommentDatabase = (likeDocID)=> {
         .doc(likeDocID)
         .delete()
         .then(() => {
-            console.log("Document successfully deleted!");
         }).catch((error) => {
-            console.error("Error removing document: ", error);
         });
     }
 }

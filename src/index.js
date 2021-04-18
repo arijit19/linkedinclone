@@ -30,7 +30,6 @@ firebase.auth().onAuthStateChanged( async (user) => {
   }
 });
 
-console.log(process.env.REACT_APP_DB_URL);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

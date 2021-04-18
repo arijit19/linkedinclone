@@ -11,10 +11,10 @@ export const likeCommentDatabase = (like)=> {
             .doc(documentRef.id)
             .set(like)
             .then(() => {
-                console.log("Document successfully written!");
+                
             })
             .catch((err) => {
-                console.error("Error writing document: ", err);
+               
                 dispatch(failed(err))
             });
     }

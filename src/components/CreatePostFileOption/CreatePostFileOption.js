@@ -31,7 +31,6 @@ class CreatePostFileOption extends Component {
     }
 
     fileInputChangeHandler = (event)=> {
-        console.log(event.target.files[0]);
         const updateFile = updateObject(this.state.file,{
             value: event.target.files[0],
             URLValue: URL.createObjectURL(event.target.files[0]),

@@ -3,11 +3,6 @@ export {
     addPostURLDatabase
 } from './Post/addPost';
 
-// export {
-//     removePost,
-//     removePostDatabase
-// } from './Post/removePost';
-
 export{
 fetchReplyDatabase
 } from './Post/fetchReplyComment'
@@ -39,10 +34,6 @@ export {
     fetchPostLikes
 }from  './Post/fetchPostLikes'
 
-export {
-    fetchData,
-    fetchPostDatabase
-} from './Post/fetchPostData';
 
 export {
     commentPostDatabase
